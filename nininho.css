@@ -1,0 +1,117 @@
+#paragrfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(56, 21, 21, 0.034);
+
+}
+
+#h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: black;
+    background-color: rgba(56, 21, 21, 0.034);
+
+}
+
+#li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(56, 21, 21, 0.034);
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(56, 21, 21, 0.034);
+}
+
+body {
+    background-image: url(imagen%20fundo%20barbearia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(56, 21, 21, 0.034);
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(56, 21, 21, 0.034);
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+br {
+    margin: 10px 0;
+}
+
+font {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(56, 21, 21, 0.034);
+
+}
