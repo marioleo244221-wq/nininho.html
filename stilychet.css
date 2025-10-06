@@ -1,4 +1,12 @@
-#paragrfo {
+#body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 100px;
+}
+
+#container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +16,6 @@
     font-size: 20px;
     color: black;
     background-color: rgba(56, 21, 21, 0.034);
-
 }
 
 #h1 {
@@ -23,6 +30,20 @@
     background-color: rgba(56, 21, 21, 0.034);
 
 }
+
+#paragrfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(56, 21, 21, 0.034);
+}
+
+
 
 #li {
     display: flex;
@@ -43,26 +64,7 @@
     background-color: rgba(56, 21, 21, 0.034);
 }
 
-body {
-    background-image: url(imagen%20fundo%20barbearia.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-}
 
-#img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    margin-top: 20px;
-}
 
 #section {
     display: flex;
@@ -91,6 +93,7 @@ body {
 }
 
 #ul {
+    display: line;
     list-style-type: none;
     padding: 0;
 }
@@ -123,20 +126,7 @@ body {
 }
 
 #header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    color: black;
-    background-color: rgba(56, 21, 21, 0.034);
-
-}
-
-#container {
-    display: flex;
+    display: line;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -168,4 +158,16 @@ body {
     text-decoration: none;
     color: black;
     background-color: rgba(56, 21, 21, 0.034);
+}
+
+#img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
 }
